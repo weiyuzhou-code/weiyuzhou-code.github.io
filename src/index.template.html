@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="周伟裕 Weiyu Zhou｜南方科技大学固体力学博士研究背景。专注粘弹性、软材料、界面失效、Abaqus 有限元与工程验证。开放研发与仿真岗位交流。">
+<meta name="theme-color" content="#17362f">
+<meta property="og:type" content="website"><meta property="og:title" content="Weiyu Zhou · Materials, Mechanics & Engineering"><meta property="og:description" content="Connecting experiments, constitutive models and finite element analysis to real engineering problems.">
+@@PUBLIC_META@@
+<title>周伟裕 Weiyu Zhou — 材料 · 力学 · 工程</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2317362f'/%3E%3Cpath d='M12 22l9 23 11-25 10 25 10-23' stroke='%23dbea9a' stroke-width='4' fill='none'/%3E%3C/svg%3E">
+<style>@@CSS@@</style>
+<script type="application/ld+json">@@SCHEMA@@</script>
+</head>
+<body>
+@@ICONS@@
+<a href="#main" class="skip-link">{{ui.skip}}</a>
+<header class="topbar">
+ <div class="container nav-inner">
+  <a class="brand" href="#main" aria-label="Weiyu Zhou 首页">
+   <span class="brand-symbol">@@LOGO@@</span><span class="brand-name">Weiyu Zhou<span>.</span></span>
+  </a>
+  <nav class="nav-links" id="main-nav" aria-label="主要导航">
+   <a href="#work">{{ui.navWork}}</a><a href="#expertise">{{ui.navExpertise}}</a><a href="#publications">{{ui.navPapers}}</a><a href="#about">{{ui.navAbout}}</a>
+  </nav>
+  <div class="nav-actions">
+   <button class="lang-button" id="language-toggle" type="button" aria-label="Switch to English" title="Switch to English"><span id="language-label">EN</span></button>
+   <a class="nav-contact" href="#contact">{{ui.navContact}}@@ARROW_NE@@</a>
+   <button class="menu-button" id="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="打开菜单" data-aria-key="ui.menu">@@MENU@@</button>
+  </div>
+ </div>
+</header>
+<main id="main">
+<section class="hero" aria-labelledby="hero-heading">
+ <div class="container">
+  <div class="hero-grid">
+   <div class="hero-copy">
+    <div class="availability"><span class="status-dot" aria-hidden="true"></span>{{hero.status}}</div>
+    <div class="name-label">{{hero.eyebrow}}</div>
+    <h1 id="hero-heading"><span data-i18n="hero.line1">从材料机理</span><span data-i18n="hero.line2">到工程答案。</span><span data-i18n="hero.line3"></span></h1>
+    <p class="hero-intro">{{hero.intro}}</p>
+    <div class="hero-buttons"><a class="button primary" href="#work">{{ui.viewWork}}@@ARROW_NE@@</a><button class="button secondary cv-trigger" type="button">{{ui.cv}}@@DOWNLOAD@@</button></div>
+    <div class="hero-identity"><img class="avatar-small" src="@@PORTRAIT@@" width="43" height="48" alt="Weiyu Zhou"><div><div class="identity-school">{{hero.school}}</div><div class="identity-location">{{identity.location}}<i aria-hidden="true">/</i>{{identity.degree}}</div></div></div>
+   </div>
+   <div class="hero-visual">
+    <div class="figure-panel">
+     <div class="figure-label"><span data-i18n="hero.figure">软材料变形 / 概念可视化</span><span class="fig-number">FIG. 01</span></div>
+     <span class="figure-cross one" aria-hidden="true"></span><span class="figure-cross two" aria-hidden="true"></span>
+     <canvas id="material-canvas" aria-label="含孔洞软材料与变形网格的交互概念图" data-aria-key="hero.diagram" role="img">Soft-material deformation: conceptual illustration.</canvas>
+     <div class="visual-word upper" aria-hidden="true">DEFORMABLE<br>MATERIAL MESH</div><div class="visual-word lower" aria-hidden="true">DEFECT<br>EVOLUTION</div>
+     <div class="visual-controls"><div class="visual-control-top"><label for="deformation">{{hero.load}}</label><span class="control-hint">{{hero.drag}}</span></div><div class="control-track"><input id="deformation" type="range" min="0" max="100" value="42" aria-label="探索变形" data-aria-key="hero.load"><button class="motion-button" type="button" id="motion-toggle" aria-label="暂停动画" data-aria-key="ui.motionPause">@@PAUSE@@</button></div></div>
+     <p class="figure-note">{{hero.figNote}}</p>
+    </div>
+   </div>
+  </div>
+  <div class="method-strip" aria-label="Research workflow">
+   <div class="method-step"><span class="index">01</span><div><strong>{{hero.experiment}}</strong><div class="english">EXPERIMENT</div></div>@@ARROW_E@@</div>
+   <div class="method-step"><span class="index">02</span><div><strong>{{hero.modeling}}</strong><div class="english">CONSTITUTIVE MODEL</div></div>@@ARROW_E@@</div>
+   <div class="method-step"><span class="index">03</span><div><strong>{{hero.simulation}}</strong><div class="english">FINITE ELEMENTS</div></div>@@ARROW_E@@</div>
+   <div class="method-step"><span class="index">04</span><div><strong>{{hero.validation}}</strong><div class="english">VALIDATION</div></div>@@CHECK@@</div>
+  </div>
+ </div>
+</section>
+<section id="work" class="section work" aria-labelledby="work-heading"><div class="container">
+ <div class="section-head"><div><span class="eyebrow">{{work.eyebrow}}</span><h2 id="work-heading">{{work.heading}}</h2><p class="section-intro">{{work.intro}}</p></div><div class="filter-group" role="group" aria-label="Project filters"><button class="filter" type="button" data-filter="all" aria-pressed="true">{{ui.all}}</button><button class="filter" type="button" data-filter="research" aria-pressed="false">{{ui.filterResearch}}</button><button class="filter" type="button" data-filter="engineering" aria-pressed="false">{{ui.filterEngineering}}</button></div></div>
+ <div class="projects-grid" id="projects-grid">@@PROJECTS@@</div><p class="sr-only" id="filter-status" role="status" aria-live="polite"></p><p class="work-note">{{work.note}}</p>
+</div></section>
+<section id="expertise" class="section expertise" aria-labelledby="expertise-heading"><div class="container expertise-grid"><div class="expertise-copy"><span class="eyebrow">{{expertise.eyebrow}}</span><h2 id="expertise-heading">{{expertise.heading}}</h2><p class="section-intro">{{expertise.intro}}</p><div class="tools-list" aria-label="Technical tools"><span class="tool">Abaqus</span><span class="tool">MATLAB</span><span class="tool">Python</span><span class="tool">COMSOL</span><span class="tool">ImageJ</span><span class="tool">Git</span><span class="tool">LaTeX</span></div></div><div class="skill-grid">@@SKILLS@@</div></div></section>
+<section id="publications" class="section publications" aria-labelledby="publications-heading"><div class="container"><div class="section-head publication-head"><div><span class="eyebrow">{{papers.eyebrow}}</span><h2 id="publications-heading">{{papers.heading}}</h2><p class="section-intro">{{papers.intro}}</p></div><span class="mono small">SELECTED / 2022—2026</span></div><div class="publications-list">@@PUBLICATIONS@@</div><p class="work-note">{{ui.publicationCount}}</p></div></section>
+<section id="about" class="section about" aria-labelledby="about-heading"><div class="container about-grid"><div class="portrait-card"><div class="portrait-image-frame"><img src="@@PORTRAIT@@" loading="lazy" width="316" height="421" alt="Weiyu Zhou"></div><div class="portrait-info"><div><div class="name">Weiyu Zhou<small>周伟裕</small></div><div class="mono">MATERIALS / MECHANICS<br>SHENZHEN, CHINA</div></div><div class="portrait-symbol">@@LOGO@@</div></div></div><div class="about-copy"><span class="eyebrow">{{about.eyebrow}}</span><h2 id="about-heading">{{about.heading}}</h2><p>{{about.p1}}</p><p>{{about.p2}}</p><div class="education-block"><div><div class="education-heading">{{about.educationTitle}}</div><div class="education-name">{{identity.institution}}</div><div class="education-info">{{about.program}}<br>{{about.advisor}}</div><div class="degree-note">{{about.status}}</div></div><div class="bachelor-education"><div class="education-name">{{about.bachelorInstitution}}</div><div class="education-info">{{about.bachelorProgram}}<br>{{about.bachelorPeriod}}</div></div></div><div class="roles"><div class="education-heading">{{about.rolesTitle}}</div><p>{{about.roles}}</p></div></div></div></section>
+<section id="contact" class="contact" aria-labelledby="contact-heading"><div class="container"><div class="contact-grid"><div><span class="eyebrow">{{contact.eyebrow}}</span><h2 id="contact-heading">{{contact.heading}}</h2><p class="contact-intro">{{contact.text}}</p></div><div class="contact-right"><div class="contact-label">{{contact.emailLabel}}</div><a class="email-link" href="mailto:@@EMAIL@@">@@EMAIL@@</a><div class="contact-actions"><a class="button primary" href="mailto:@@EMAIL@@">{{ui.sendEmail}}@@ARROW_NE@@</a><button class="button secondary" id="copy-email" type="button">{{ui.copy}}@@COPY@@</button></div><div class="copy-fallback" id="copy-fallback" hidden><label for="manual-copy">{{ui.manualCopy}}</label><input id="manual-copy" type="text" readonly></div><div class="cv-direct"><a href="@@PDF_ZH@@" target="_blank" rel="noopener">{{ui.pdfZh}}</a><a href="@@PDF_EN@@" target="_blank" rel="noopener">{{ui.pdfEn}}</a></div><div class="contact-other"><a href="@@GITHUB@@" target="_blank" rel="noopener noreferrer">GitHub @@ARROW_NE@@</a><button class="cv-trigger" type="button">{{ui.cv}}@@DOWNLOAD@@</button><button id="share-site" type="button">{{ui.share}}@@SHARE@@</button></div></div></div><footer class="contact-bottom"><span class="footer-brand">© 2026 Weiyu Zhou</span><div>{{contact.footer}}</div><div class="footer-right"><span>{{contact.privacy}}</span><span>{{contact.updated}}</span><a class="back-top" href="#main">{{ui.backTop}}@@ARROW_UP@@</a></div></footer></div></section>
+</main>
+<dialog id="project-dialog" aria-labelledby="project-dialog-title"><div class="dialog-top"><span class="mono">SELECTED WORK / WEIYU ZHOU</span><button class="close-dialog" type="button" data-close aria-label="关闭" data-aria-key="ui.close">@@CLOSE@@</button></div><div class="dialog-content" id="project-dialog-body"></div></dialog>
+<dialog id="cv-dialog" aria-labelledby="cv-dialog-title"><div class="dialog-top"><span class="mono">CURRICULUM VITAE / WEIYU ZHOU</span><button class="close-dialog" type="button" data-close aria-label="关闭" data-aria-key="ui.close">@@CLOSE@@</button></div><div class="dialog-content"><h2 id="cv-dialog-title">{{ui.cv}}</h2><p class="lead">{{ui.cvIntro}}</p><div class="cv-choices"><a href="@@PDF_ZH@@" download="Weiyu_Zhou_CV_ZH.pdf" class="cv-choice">@@FILE@@<span class="cv-label">{{ui.pdfZh}}@@DOWNLOAD@@</span></a><a href="@@PDF_EN@@" download="Weiyu_Zhou_CV_EN.pdf" class="cv-choice">@@FILE@@<span class="cv-label">{{ui.pdfEn}}@@DOWNLOAD@@</span></a></div><p class="dialog-note">{{about.status}}</p></div></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<noscript><div class="noscript">网页正文可正常阅读。中英切换、项目详情和交互演示需要启用 JavaScript。<br>联系：<a href="mailto:@@EMAIL@@">@@EMAIL@@</a></div></noscript>
+<script>window.SITE=@@CONTENT@@;window.PUBLIC_SITE_URL=@@PUBLIC_URL@@;</script>
+<script>@@JS@@</script>
+</body></html>

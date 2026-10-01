@@ -1,0 +1,12 @@
+/index.html
+/dist/
+/qa/
+/PUBLICATION_REVIEW.md
+/CONTENT_NOTES.md
+/VALIDATION.md
+/DEPLOYMENT_STATUS.md
+/node_modules/
+/__pycache__/
+*.log
+.env*
+*.zip

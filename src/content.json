@@ -1,0 +1,657 @@
+{
+  "identity": {
+    "name": {
+      "zh": "周伟裕",
+      "en": "Weiyu Zhou"
+    },
+    "english": "Weiyu Zhou",
+    "email": "zhouweiyu1@qq.com",
+    "github": "https://github.com/weiyuzhou-code",
+    "location": {
+      "zh": "中国 · 深圳",
+      "en": "Shenzhen, China"
+    },
+    "institution": {
+      "zh": "南方科技大学",
+      "en": "Southern University of Science and Technology"
+    },
+    "discipline": {
+      "zh": "固体力学 · 软材料与粘弹性",
+      "en": "Solid mechanics · Soft materials & viscoelasticity"
+    },
+    "degree": {
+      "zh": "博士学位待授予",
+      "en": "Doctoral degree pending"
+    },
+    "updated": "2026-10-01"
+  },
+  "ui": {
+    "navWork": {
+      "zh": "研究与项目",
+      "en": "Selected work"
+    },
+    "navExpertise": {
+      "zh": "技术能力",
+      "en": "Expertise"
+    },
+    "navPapers": {
+      "zh": "学术成果",
+      "en": "Publications"
+    },
+    "navAbout": {
+      "zh": "关于我",
+      "en": "About"
+    },
+    "navContact": {
+      "zh": "联系我",
+      "en": "Get in touch"
+    },
+    "menu": {
+      "zh": "打开菜单",
+      "en": "Open menu"
+    },
+    "skip": {
+      "zh": "跳转到主要内容",
+      "en": "Skip to content"
+    },
+    "cv": {
+      "zh": "下载简历",
+      "en": "Download CV"
+    },
+    "viewWork": {
+      "zh": "了解我的研究",
+      "en": "Explore my work"
+    },
+    "detail": {
+      "zh": "查看项目",
+      "en": "Explore project"
+    },
+    "close": {
+      "zh": "关闭",
+      "en": "Close"
+    },
+    "all": {
+      "zh": "全部项目",
+      "en": "All work"
+    },
+    "filterResearch": {
+      "zh": "材料机理",
+      "en": "Materials research"
+    },
+    "filterEngineering": {
+      "zh": "工程应用",
+      "en": "Engineering"
+    },
+    "copy": {
+      "zh": "复制邮箱",
+      "en": "Copy email"
+    },
+    "copied": {
+      "zh": "邮箱已复制",
+      "en": "Email copied"
+    },
+    "copyFail": {
+      "zh": "请手动复制下方邮箱",
+      "en": "Please copy the email below"
+    },
+    "sendEmail": {
+      "zh": "发送邮件",
+      "en": "Send an email"
+    },
+    "pdfZh": {
+      "zh": "中文简历 · PDF",
+      "en": "Chinese CV · PDF"
+    },
+    "pdfEn": {
+      "zh": "英文简历 · PDF",
+      "en": "English CV · PDF"
+    },
+    "cvIntro": {
+      "zh": "为招聘沟通整理的精简版简历，可直接下载。",
+      "en": "A focused, recruiter-friendly résumé. Ready to download."
+    },
+    "sourcePaper": {
+      "zh": "期刊原文",
+      "en": "Read publication"
+    },
+    "backTop": {
+      "zh": "回到顶部",
+      "en": "Back to top"
+    },
+    "share": {
+      "zh": "分享网页",
+      "en": "Share website"
+    },
+    "localShare": {
+      "zh": "当前是本地预览，发布后才有可分享的网址。",
+      "en": "This is a local preview. Publish it to share a public URL."
+    },
+    "shareCopied": {
+      "zh": "网页链接已复制",
+      "en": "Website link copied"
+    },
+    "external": {
+      "zh": "在新窗口打开",
+      "en": "Opens in a new tab"
+    },
+    "publicationCount": {
+      "zh": "精选论文，不代表完整发表清单。",
+      "en": "Selected publications; not an exhaustive list."
+    },
+    "results": {
+      "zh": "项精选项目",
+      "en": "selected projects"
+    },
+    "motionPause": {
+      "zh": "暂停动画",
+      "en": "Pause animation"
+    },
+    "motionPlay": {
+      "zh": "播放动画",
+      "en": "Play animation"
+    },
+    "manualCopy": {
+      "zh": "自动复制不可用，请选中下方内容手动复制：",
+      "en": "Automatic copying is unavailable. Select and copy the text below:"
+    },
+    "menuClose": {
+      "zh": "关闭菜单",
+      "en": "Close menu"
+    }
+  },
+  "hero": {
+    "status": {
+      "zh": "开放求职 · 研发 / 仿真 / 材料",
+      "en": "OPEN TO R&D & SIMULATION ROLES"
+    },
+    "eyebrow": {
+      "zh": "WEIYU ZHOU / 周伟裕",
+      "en": "WEIYU ZHOU / MECHANICS RESEARCHER"
+    },
+    "line1": {
+      "zh": "从材料机理",
+      "en": "From materials"
+    },
+    "line2": {
+      "zh": "到工程答案。",
+      "en": "to meaningful"
+    },
+    "line3": {
+      "zh": "",
+      "en": "solutions."
+    },
+    "intro": {
+      "zh": "以实验理解软材料，以模型连接工程。聚焦粘弹性、界面失效与有限元分析，将材料行为转化为可验证的工程判断。",
+      "en": "I connect experiments, constitutive models and finite element analysis to understand soft materials—and turn complex behavior into verifiable engineering insight."
+    },
+    "school": {
+      "zh": "南方科技大学 · 固体力学博士研究背景",
+      "en": "SUSTech · Doctoral research in Solid Mechanics"
+    },
+    "figure": {
+      "zh": "软材料变形 / 概念可视化",
+      "en": "SOFT-MATERIAL DEFORMATION / CONCEPT"
+    },
+    "figNote": {
+      "zh": "概念示意，非实验或有限元结果",
+      "en": "Concept illustration · not experimental or FEA data"
+    },
+    "load": {
+      "zh": "探索变形",
+      "en": "Explore deformation"
+    },
+    "drag": {
+      "zh": "拖动滑块，观察网格变化",
+      "en": "Move the slider to explore the mesh"
+    },
+    "diagram": {
+      "zh": "含孔洞软材料与变形网格的交互概念图",
+      "en": "Interactive concept of a deforming soft-material mesh with a void"
+    },
+    "experiment": {
+      "zh": "实验表征",
+      "en": "Characterize"
+    },
+    "modeling": {
+      "zh": "本构建模",
+      "en": "Model"
+    },
+    "simulation": {
+      "zh": "有限元分析",
+      "en": "Simulate"
+    },
+    "validation": {
+      "zh": "实验验证",
+      "en": "Validate"
+    }
+  },
+  "work": {
+    "eyebrow": {
+      "zh": "01 / SELECTED WORK",
+      "en": "01 / SELECTED WORK"
+    },
+    "heading": {
+      "zh": "研究，落在真实问题上。",
+      "en": "Research, grounded in real problems."
+    },
+    "intro": {
+      "zh": "从界面失效到器件可靠性，连接材料机理与产品应用。",
+      "en": "Connecting the mechanics of interfaces to the reliability of real devices."
+    },
+    "note": {
+      "zh": "项目以研究问题与方法为重点；示意图不代表实际试验结果。",
+      "en": "Project illustrations explain concepts; they are not measured results."
+    }
+  },
+  "projects": [
+    {
+      "id": "cavitation",
+      "number": "01",
+      "category": "research",
+      "tags": [
+        "Viscoelasticity",
+        "Image analysis"
+      ],
+      "title": {
+        "zh": "软材料空泡与界面失效",
+        "en": "Cavitation & interfacial failure"
+      },
+      "subtitle": {
+        "zh": "看见失效，也解释失效。",
+        "en": "Making failure visible—and understandable."
+      },
+      "description": {
+        "zh": "结合力学测试、全场图像分析与有限元建模，研究粘弹性胶层中的空泡增长、指状失稳与损伤演化。",
+        "en": "Combining mechanical testing, full-field image analysis and finite element modeling to study cavity growth, fingering and damage in viscoelastic adhesive layers."
+      },
+      "label": {
+        "zh": "软材料力学 / 失效量化",
+        "en": "SOFT MATERIALS / FAILURE MECHANICS"
+      },
+      "challenge": {
+        "zh": "柔性器件中的薄胶层承受复杂的弯曲、剪切与法向载荷。局部失效的起点和演化过程难以通过整体力–位移曲线直接辨识。",
+        "en": "Thin adhesive layers in flexible devices experience combined bending, shear and normal loading. Global force–displacement measurements alone cannot resolve local failure initiation and evolution."
+      },
+      "methods": {
+        "zh": "设计剥离与受限胶层测试方案；利用图像处理跟踪空泡和指状结构；结合粘弹性参数识别、本构分析与 Abaqus 模拟解释变形及失效。",
+        "en": "Design peel and confined-layer experiments; track cavities and fingers with image processing; combine viscoelastic parameter identification, constitutive analysis and Abaqus simulations."
+      },
+      "contribution": {
+        "zh": "建立从可视化观测到定量表征的分析路径，为柔性显示胶层的失效评估提供机理依据。",
+        "en": "Connect visual observations to quantitative analysis, providing a mechanistic basis for failure assessment of flexible-display adhesives."
+      },
+      "tools": [
+        "Abaqus",
+        "MATLAB",
+        "ImageJ",
+        "DMA"
+      ],
+      "related": null
+    },
+    {
+      "id": "tim",
+      "number": "02",
+      "category": "engineering",
+      "tags": [
+        "Chip packaging",
+        "Constitutive modeling"
+      ],
+      "title": {
+        "zh": "导热界面材料的压缩与回弹",
+        "en": "Mechanics of thermal interfaces"
+      },
+      "subtitle": {
+        "zh": "让柔软的界面，支撑可靠的封装。",
+        "en": "Soft interfaces. Reliable packaging."
+      },
+      "description": {
+        "zh": "围绕芯片封装中的导热界面材料，开展压缩、循环加载和松弛表征，识别软化与回弹行为并构建材料模型。",
+        "en": "Characterizing compression, cyclic loading and relaxation of thermal interface materials, with constitutive models for softening and recovery in chip packaging."
+      },
+      "label": {
+        "zh": "芯片封装 / 材料建模",
+        "en": "CHIP PACKAGING / MATERIAL MODELING"
+      },
+      "challenge": {
+        "zh": "导热垫的非线性压缩、循环软化和恢复行为会影响装配接触状态；结构翘曲使材料响应更加复杂。",
+        "en": "Nonlinear compression, cyclic softening and recovery affect the contact state of thermal pads. Structural warpage further complicates their mechanical response."
+      },
+      "methods": {
+        "zh": "开展拉伸、流变、压缩与循环加载测试；识别粘弹性和 Mullins 软化参数；结合仿真–实验对比研究尺寸、压缩平行度与结构翘曲的影响。",
+        "en": "Conduct tensile, rheological, compression and cyclic tests; identify viscoelastic and Mullins-softening parameters; compare simulations and experiments to assess size, compression alignment and warpage effects."
+      },
+      "contribution": {
+        "zh": "为导热界面材料的装配分析提供可验证的力学输入，支持封装结构中软化及回弹行为的评估。",
+        "en": "Provide validated mechanical inputs for assembly analysis and support assessment of softening and recovery in packaging structures."
+      },
+      "tools": [
+        "Abaqus",
+        "MATLAB",
+        "Prony series",
+        "Mullins effect"
+      ],
+      "related": null
+    },
+    {
+      "id": "damping",
+      "number": "03",
+      "category": "engineering",
+      "tags": [
+        "Dynamic response",
+        "Model validation"
+      ],
+      "title": {
+        "zh": "相机减震胶的动态响应",
+        "en": "Dynamic response of damping adhesives"
+      },
+      "subtitle": {
+        "zh": "从试样测试，走向模组验证。",
+        "en": "From material coupons to camera modules."
+      },
+      "description": {
+        "zh": "结合固化工艺、落锤冲击、扫频与时温等效分析，建立粘弹性本构模型，连接材料级响应与相机模组的振动表现。",
+        "en": "Linking curing conditions, impact testing, frequency sweeps and time–temperature superposition to viscoelastic models and camera-module response."
+      },
+      "label": {
+        "zh": "消费电子 / 动态测试",
+        "en": "CONSUMER ELECTRONICS / DYNAMICS"
+      },
+      "challenge": {
+        "zh": "减震胶的动态响应随频率、温度和固化条件变化，需要建立材料测试与真实模组响应之间的联系。",
+        "en": "Damping adhesives respond differently across frequency, temperature and curing conditions. Material-level tests must be connected to module-level behavior."
+      },
+      "methods": {
+        "zh": "协助优化 UV 固化条件；搭建高速落锤冲击测试平台；通过扫频、时温等效与松弛试验构建粘弹性模型，并开展试样级和模组级对比验证。",
+        "en": "Support UV-curing optimization; develop a high-speed drop-weight impact test platform; build viscoelastic models using frequency sweeps, time–temperature superposition and relaxation tests; validate at coupon and module levels."
+      },
+      "contribution": {
+        "zh": "建立覆盖材料表征、参数识别与动态响应验证的技术路径，支持相机减震性能分析。",
+        "en": "Establish a workflow spanning characterization, parameter identification and dynamic validation to support camera damping analysis."
+      },
+      "tools": [
+        "DMA",
+        "TTS",
+        "Impact testing",
+        "MATLAB"
+      ],
+      "related": null
+    },
+    {
+      "id": "electrode",
+      "number": "04",
+      "category": "research",
+      "tags": [
+        "Advanced Materials",
+        "Co-first author"
+      ],
+      "title": {
+        "zh": "可切换粘附的表皮电极",
+        "en": "Switchable epidermal adhesion"
+      },
+      "subtitle": {
+        "zh": "稳定贴合，也能温和脱离。",
+        "en": "Stay attached. Detach gently."
+      },
+      "description": {
+        "zh": "通过皮肤–电极协同变形与结构设计，探索稳定粘附和低损伤脱离的兼容路径。相关成果发表于 Advanced Materials。",
+        "en": "Exploring how skin–electrode co-deformation and structural design reconcile stable adhesion with gentle detachment. Published in Advanced Materials."
+      },
+      "label": {
+        "zh": "柔性电子 / 粘附力学",
+        "en": "FLEXIBLE ELECTRONICS / ADHESION"
+      },
+      "challenge": {
+        "zh": "表皮电极需要稳定贴合以采集信号，同时又应易于移除，降低对皮肤的损伤。",
+        "en": "Epidermal electrodes must adhere securely for signal acquisition while remaining easy to remove with limited skin damage."
+      },
+      "methods": {
+        "zh": "研究结构化电极与柔软皮肤基底的协同变形，以及不同剥离方向下的粘附切换机理；将软材料力学与柔性器件结构设计相结合。",
+        "en": "Study co-deformation of patterned electrodes and soft skin, and the mechanism of direction-dependent adhesion; connect soft-material mechanics with structural design of flexible devices."
+      },
+      "contribution": {
+        "zh": "共同第一作者论文：Coordinated Skin-Electrode Deformation for Switchable Adhesion and Injury-Free Detachment of Epidermal Electrodes，Advanced Materials，2026。",
+        "en": "Co-first author of “Coordinated Skin-Electrode Deformation for Switchable Adhesion and Injury-Free Detachment of Epidermal Electrodes,” Advanced Materials, 2026."
+      },
+      "tools": [
+        "Soft mechanics",
+        "Adhesion",
+        "Structural design"
+      ],
+      "related": "https://doi.org/10.1002/adma.73501"
+    }
+  ],
+  "expertise": {
+    "eyebrow": {
+      "zh": "02 / EXPERTISE",
+      "en": "02 / EXPERTISE"
+    },
+    "heading": {
+      "zh": "不只会模拟。\n让模型经得起实验。",
+      "en": "Beyond simulation.\nModels that meet experiments."
+    },
+    "intro": {
+      "zh": "我的工作方式，是把实验、理论与计算放在同一个问题里，持续校准假设、参数和预测。",
+      "en": "My approach puts experiments, theory and computation in the same loop—checking assumptions, identifying parameters and validating predictions."
+    },
+    "cards": [
+      {
+        "n": "A",
+        "title": {
+          "zh": "设计可用的实验",
+          "en": "Design the right experiment"
+        },
+        "text": {
+          "zh": "DMA、流变、剥离脱粘、压缩与循环加载；围绕问题设计夹具与测试流程。",
+          "en": "DMA, rheometry, peel and debonding, compression and cyclic loading; fixtures and test protocols built around the question."
+        },
+        "tag": "EXPERIMENTAL MECHANICS"
+      },
+      {
+        "n": "B",
+        "title": {
+          "zh": "建立合适的材料模型",
+          "en": "Build a useful material model"
+        },
+        "text": {
+          "zh": "粘弹性与超弹性、Prony 参数识别、Mullins 软化；以可辨识的参数描述材料行为。",
+          "en": "Viscoelasticity, hyperelasticity, Prony identification and Mullins softening, with parameters grounded in material measurements."
+        },
+        "tag": "CONSTITUTIVE MODELING"
+      },
+      {
+        "n": "C",
+        "title": {
+          "zh": "连接仿真与真实响应",
+          "en": "Connect simulation to response"
+        },
+        "text": {
+          "zh": "Abaqus 有限元分析、大变形与界面问题；通过实验–仿真对比检查模型适用范围。",
+          "en": "Abaqus finite element analysis of large deformation and interfaces; experiment–simulation comparisons to check model validity."
+        },
+        "tag": "FINITE ELEMENT ANALYSIS"
+      },
+      {
+        "n": "D",
+        "title": {
+          "zh": "让研究过程可追溯",
+          "en": "Make the workflow traceable"
+        },
+        "text": {
+          "zh": "MATLAB 图像与数据处理，Git 与 LaTeX 组织研究；持续完善图表–代码–数据映射。",
+          "en": "MATLAB image and data processing, Git and LaTeX for research organization; developing figure–code–data traceability."
+        },
+        "tag": "REPRODUCIBLE RESEARCH"
+      }
+    ]
+  },
+  "papers": {
+    "eyebrow": {
+      "zh": "03 / PUBLICATIONS",
+      "en": "03 / PUBLICATIONS"
+    },
+    "heading": {
+      "zh": "把研究写进证据。",
+      "en": "Research, in the record."
+    },
+    "intro": {
+      "zh": "精选已发表成果，点击可前往期刊原文。",
+      "en": "Selected published work, with links to the original articles."
+    },
+    "items": [
+      {
+        "year": "2026",
+        "journal": "Advanced Materials",
+        "title": "Coordinated Skin-Electrode Deformation for Switchable Adhesion and Injury-Free Detachment of Epidermal Electrodes",
+        "authors": "M. Guo, W. Zhou, G. Li, X. Xia, J. Zhu, Y. Dong, W. Hong, C. F. Guo",
+        "detail": "38(37), e73501",
+        "badge": {
+          "zh": "共同第一作者",
+          "en": "Co-first author"
+        },
+        "doi": "10.1002/adma.73501"
+      },
+      {
+        "year": "2025",
+        "journal": "Small",
+        "title": "Polyelectrolyte Elastomer-Based Ionotronic Electro-Mechano-Optical Devices",
+        "authors": "Y. Huang, Y. Zeng, H. Ruan, M. Zhang, Q. Xue, W. Zhou, W. Hong, C. Yang",
+        "detail": "21(42), e2502225",
+        "badge": {
+          "zh": "合作作者",
+          "en": "Co-author"
+        },
+        "doi": "10.1002/smll.202502225"
+      },
+      {
+        "year": "2022",
+        "journal": "ACS Applied Materials & Interfaces",
+        "title": "Stretchable Heterogeneous Polymer Networks of High Adhesion and Low Hysteresis",
+        "authors": "P. Zhang, W. Zhou, Y. He, Z. Xu, M. Li, W. Hong, C. Yang",
+        "detail": "14(43), 49264–49273",
+        "badge": {
+          "zh": "第二作者",
+          "en": "Second author"
+        },
+        "doi": "10.1021/acsami.2c12658"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": {
+      "zh": "04 / ABOUT ME",
+      "en": "04 / ABOUT ME"
+    },
+    "heading": {
+      "zh": "在科学与工程之间，\n把问题向前推进。",
+      "en": "Working at the intersection\nof science and engineering."
+    },
+    "p1": {
+      "zh": "我是周伟裕，研究方向是固体力学与软材料。我的博士阶段研究在南方科技大学开展，围绕粘弹性材料、粘附与失效机制展开。",
+      "en": "I am Weiyu Zhou, a researcher in solid mechanics and soft materials. My doctoral research at SUSTech focuses on viscoelastic materials, adhesion and failure mechanisms."
+    },
+    "p2": {
+      "zh": "在产业合作项目中，我把这些研究方法用于柔性显示胶层、相机减震材料与芯片封装导热界面，希望用可验证的模型帮助团队理解问题、缩小设计与试验之间的距离。",
+      "en": "Through industry–university projects, I apply these methods to flexible-display adhesives, camera damping materials and thermal interfaces for chip packaging. I aim to help teams understand problems through validated models and bring design closer to testing."
+    },
+    "educationTitle": {
+      "zh": "教育与研究背景",
+      "en": "Education & research"
+    },
+    "program": {
+      "zh": "固体力学 · 硕博连读研究经历",
+      "en": "Solid Mechanics · Combined master–doctoral research"
+    },
+    "advisor": {
+      "zh": "导师：洪伟教授",
+      "en": "Advisor: Prof. Wei Hong"
+    },
+    "status": {
+      "zh": "2026 年；博士学位待授予，最终以学校审批为准。",
+      "en": "2026; doctoral degree pending, subject to university approval."
+    },
+    "rolesTitle": {
+      "zh": "关注的岗位方向",
+      "en": "Roles of interest"
+    },
+    "roles": {
+      "zh": "CAE / FEA 仿真研发 · 材料与本构建模 · 测试与可靠性研发",
+      "en": "CAE / FEA · Material & constitutive modeling · Test & reliability R&D"
+    },
+    "approach": {
+      "zh": "从真实问题出发，以验证闭环收尾。",
+      "en": "Start with the real problem. Close the loop with validation."
+    },
+    "portraitCaption": {
+      "zh": "WEIYU ZHOU · 周伟裕",
+      "en": "WEIYU ZHOU · RESEARCHER"
+    },
+    "bachelorInstitution": {
+      "zh": "合肥工业大学",
+      "en": "Hefei University of Technology"
+    },
+    "bachelorProgram": {
+      "zh": "水利水电工程 · 本科",
+      "en": "Hydraulic and Hydropower Engineering · Bachelor’s degree"
+    },
+    "bachelorPeriod": {
+      "zh": "2015–2019 · 中国安徽",
+      "en": "2015–2019 · Anhui, China"
+    }
+  },
+  "contact": {
+    "eyebrow": {
+      "zh": "05 / LET’S CONNECT",
+      "en": "05 / LET’S CONNECT"
+    },
+    "heading": {
+      "zh": "一起解决下一个\n有挑战的问题。",
+      "en": "Let’s work on the\nnext hard problem."
+    },
+    "text": {
+      "zh": "欢迎交流研发岗位、材料建模与工程合作。邮件中可附上岗位说明或研究问题，便于高效沟通。",
+      "en": "Get in touch about R&D opportunities, material modeling or engineering collaborations. A role description or research question is a great place to start."
+    },
+    "emailLabel": {
+      "zh": "联系邮箱",
+      "en": "EMAIL"
+    },
+    "availability": {
+      "zh": "开放研发岗位与技术交流",
+      "en": "Open to R&D roles & technical conversations"
+    },
+    "footer": {
+      "zh": "材料 · 力学 · 工程",
+      "en": "MATERIALS · MECHANICS · ENGINEERING"
+    },
+    "privacy": {
+      "zh": "无追踪脚本 · 无第三方表单",
+      "en": "No tracking · No third-party forms"
+    },
+    "updated": {
+      "zh": "内容更新于 2026.10",
+      "en": "Updated October 2026"
+    }
+  },
+  "detail": {
+    "challenge": {
+      "zh": "研究问题",
+      "en": "The challenge"
+    },
+    "methods": {
+      "zh": "方法与工作",
+      "en": "Methods & work"
+    },
+    "contribution": {
+      "zh": "贡献与应用",
+      "en": "Contribution & application"
+    },
+    "tools": {
+      "zh": "方法与工具",
+      "en": "METHODS & TOOLS"
+    },
+    "note": {
+      "zh": "以上为公开展示摘要，不含合作方内部数据。",
+      "en": "Public-facing summary; no confidential partner data included."
+    }
+  }
+}
